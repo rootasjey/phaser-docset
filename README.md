@@ -10,11 +10,13 @@ I'll try to keep the docset in sync with the official [Phaser documentation repo
 
 >I'll probably delete this repo when an official docset for Phaser 3 will be available.
 
+[Download the lastest updated docset](https://github.com/rootasjey/phaser-docset/releases)
+
 ## Build
 
 >To build your own Phaser docset follow the instructions.
 
-This docset was generated using [Dashing](https://github.com/technosophos/dashing#readme).
+This docset was generated using [Dashing](https://github.com/technosophos/dashing).
 
 In order to contribute, you'll have to follow the instruction to install Dashing
 
@@ -58,6 +60,14 @@ You can now run the command to build the docset
  ```
 
 Now you can import the new generated docset into Dash.
+
+## Contributing
+
+You can contribute by editing the `dashing.json` file and sending a [pull request](https://github.com/rootasjey/phaser-docset/pulls).
+
+I'll generate the new docset and upload it to the [release page](https://github.com/rootasjey/phaser-docset/releases).
+
+See [Dashing documentation](https://github.com/technosophos/dashing#readme) for more capabilities.
 
 ## LICENCE
 
