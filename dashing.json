@@ -1,0 +1,43 @@
+{
+    "name": "Phaser",
+    "package": "phaser",
+    "index": "index.html",
+    "selectors": {
+        "h1": {
+            "requiretext": "Namespace: (.*)",
+            "type": "Namespace",
+            "regexp": "Namespace: ",
+            "replacement": ""
+        },
+        "h1.page-title": {
+            "requiretext": "Class: (.*)",
+            "type": "Class",
+            "regexp": "Class: ",
+            "replacement": ""
+        },
+        "header .class-description": {
+            "type": "Define"
+        },
+        ".container-overview dt h4": {
+            "type": "Constructor"
+        },
+        "dl dt[class='name'] h4": {
+            "requiretext": "(.+)\\:(.+)",
+            "type": "Property",
+            "regexp": "<(.*)>|:(.*)",
+            "replacement": ""
+        },
+        "dl dt h4[class='name']": {
+            "requiretext": "(.+)\\((.*)\\)",
+            "type": "Method",
+            "regexp": "<(.*)>",
+            "replacement": ""
+        }
+    },
+    "ignore": [
+        "ABOUT"
+    ],
+    "icon32x32": "icon@2x.png",
+    "allowJS": false,
+    "ExternalURL": "https://photonstorm.github.io/phaser3-docs/index.html"
+}
